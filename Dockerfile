@@ -1,12 +1,15 @@
-# Tags: latest, 0.10.1-debian-10-r68, 0.10.1, 0-debian-10, 0
+# Tags: latest, 0.10.1-debian-10-r69, 0.10.1, 0-debian-10, 0
 FROM bitnami/postgres-exporter:latest
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r68
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r69
 FROM bitnami/postgres-exporter:0.10.1
 FROM bitnami/postgres-exporter:0-debian-10
 FROM bitnami/postgres-exporter:0
 
 # Tags: _
 FROM bitnami/postgres-exporter:_
+
+# Tags: 0.10.1-debian-10-r68
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r68
 
 # Tags: 0.10.1-debian-10-r67
 FROM bitnami/postgres-exporter:0.10.1-debian-10-r67
@@ -91,6 +94,3 @@ FROM bitnami/postgres-exporter:0.10.1-debian-10-r41
 
 # Tags: 0.10.1-debian-10-r40
 FROM bitnami/postgres-exporter:0.10.1-debian-10-r40
-
-# Tags: 0.10.1-debian-10-r39
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r39
