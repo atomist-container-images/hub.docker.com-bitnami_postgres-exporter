@@ -1,12 +1,42 @@
-# Tags: latest, 0.10.1-debian-10-r101, 0.10.1, 0-debian-10, 0
+# Tags: latest, 0.10.1-debian-10-r111, 0.10.1, 0-debian-10, 0
 FROM bitnami/postgres-exporter:latest
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r101
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r111
 FROM bitnami/postgres-exporter:0.10.1
 FROM bitnami/postgres-exporter:0-debian-10
 FROM bitnami/postgres-exporter:0
 
 # Tags: _
 FROM bitnami/postgres-exporter:_
+
+# Tags: 0.10.1-debian-10-r110
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r110
+
+# Tags: 0.10.1-debian-10-r109
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r109
+
+# Tags: 0.10.1-debian-10-r108
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r108
+
+# Tags: 0.10.1-debian-10-r107
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r107
+
+# Tags: 0.10.1-debian-10-r106
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r106
+
+# Tags: 0.10.1-debian-10-r105
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r105
+
+# Tags: 0.10.1-debian-10-r104
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r104
+
+# Tags: 0.10.1-debian-10-r103
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r103
+
+# Tags: 0.10.1-debian-10-r102
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r102
+
+# Tags: 0.10.1-debian-10-r101
+FROM bitnami/postgres-exporter:0.10.1-debian-10-r101
 
 # Tags: 0.10.1-debian-10-r100
 FROM bitnami/postgres-exporter:0.10.1-debian-10-r100
@@ -61,36 +91,3 @@ FROM bitnami/postgres-exporter:0.10.1-debian-10-r84
 
 # Tags: 0.10.1-debian-10-r83
 FROM bitnami/postgres-exporter:0.10.1-debian-10-r83
-
-# Tags: 0.10.1-debian-10-r82
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r82
-
-# Tags: 0.10.1-debian-10-r81
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r81
-
-# Tags: 0.10.1-debian-10-r80
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r80
-
-# Tags: 0.10.1-debian-10-r79
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r79
-
-# Tags: 0.10.1-debian-10-r78
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r78
-
-# Tags: 0.10.1-debian-10-r77
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r77
-
-# Tags: 0.10.1-debian-10-r76
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r76
-
-# Tags: 0.10.1-debian-10-r75
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r75
-
-# Tags: 0.10.1-debian-10-r74
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r74
-
-# Tags: 0.10.1-debian-10-r73
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r73
-
-# Tags: 0.10.1-debian-10-r72
-FROM bitnami/postgres-exporter:0.10.1-debian-10-r72
